@@ -1,0 +1,38 @@
+/* COMMON */
+body {}
+
+a {}
+
+header {}
+
+header .inner {}
+
+header .inner .header__logo {}
+
+header .inner .header__logo a {}
+
+header .inner .header__logo a i {}
+
+header .inner .header__menu {}
+
+header .inner .header__menu li {}
+
+header .inner .header__menu li a {}
+
+header .inner .header__search {}
+
+header .inner .header__search input {}
+
+header .inner .header__search i {}
+
+header .inner .header__participation {}
+
+header .inner .header__participation a {}
+
+header .inner .header__participation a:hover {}
+
+header .inner .header__button {}
+
+header .inner .header__button .header__button__login {}
+
+header .inner .header__button .header__button__register {}
