@@ -1,5 +1,6 @@
 /* COMMON */
 body {
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 16px;
 }
 
@@ -29,6 +30,7 @@ header .inner .header__logo {
 }
 
 header .inner .header__logo a {
+    font-family: 'Indie Flower', cursive;
     font-size: 32px;
     color: green;
 }
