@@ -1,81 +1,82 @@
 /* COMMON */
 body {
-    font-size: 20px;
-    color: #656565;
+  font-size: 20px;
+  color: #656565;
 }
 
 a {
-    text-decoration: none;
-    color: #656565;
+  text-decoration: none;
+  color: #656565;
 }
 
-
 header {
-    background-color: #f6f5ef;
-    border-bottom: 1px solid #c8c8c8;
+  background-color: #f6f5ef;
+  border-bottom: 1px solid #c8c8c8;
 }
 
 header .inner {
-    display: flex;
-    max-width: 1200px;
-    margin: auto;
-    position: relative;
-    height: 60px;
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+  height: 60px;
 }
 
 header .inner .header__logo {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    height: 20px;
-    margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 20px;
+  margin: auto;
 }
 
 header .inner .header__logo i {
-    color: #656565;
+  color: #656565;
 }
 
-header .inner .header__logo a {}
+header .inner .header__logo a {
+}
 
 header .inner .header__menu {
-    position: absolute;
-    display: flex;
-    height: 32px;
-    left: 50%;
-    transform: translate(-50%, 0);
-    top: 0;
-    bottom: 0;
-    margin: auto;
+  position: absolute;
+  display: flex;
+  height: 32px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 header .inner .header__menu li {
-    padding: 8px 30px;
-    font-size: 16px;
-    vertical-align: bottom;
+  padding: 8px 30px;
+  font-size: 16px;
+  vertical-align: bottom;
 }
 
 header .inner .header__menu li:hover {
-    padding: 8px 30px;
-    text-decoration: underline;
+  padding: 8px 30px;
+  text-decoration: underline;
 }
 
-header .inner .header__menu li a {}
+header .inner .header__menu li a {
+}
 
 header .inner .header__links {
-    position: absolute;
-    height: 20px;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
+  position: absolute;
+  height: 20px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
 }
 
 header .inner .header__links i {
-    display: inline-block;
-    margin-left: 10px;
+  display: inline-block;
+  margin-left: 10px;
 }
 
 header .inner .header__links i:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
